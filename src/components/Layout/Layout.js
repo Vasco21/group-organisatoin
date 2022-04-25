@@ -5,6 +5,7 @@ import Sections from '../sections/Sections';
 
 const Layout = () => {
   return (
+    <>
     <Fragment>
       <Header />
       <main>
@@ -12,6 +13,7 @@ const Layout = () => {
       </main>
       <Footer />
     </Fragment>
+    </>
   );
 };
 

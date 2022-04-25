@@ -1,5 +1,4 @@
 import React, { Fragment } from 'react';
-
 import Home from './Home/home';
 import About from './About/About';
 import Service from './Service/Service';
@@ -8,8 +7,12 @@ import Blog from './Blog/Blog';
 import Contact from './Contact/contact';
 import MapMarker from './MapMarker/MapMarker';
 
+ 
+
 const sections = () => {
   return (
+    <>
+    
     <Fragment>
       <Home />
       <About />
@@ -19,6 +22,7 @@ const sections = () => {
       <Contact />
       <MapMarker />
     </Fragment>
+    </>
   );
 };
 
